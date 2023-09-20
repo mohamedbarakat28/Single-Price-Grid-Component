@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.parent {
+  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.parent .container {
+  /* background-color: antiquewhite; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.parent .container .text_cont {
+  width: 80%;
+  height: 30%;
+  /* background-color: aliceblue; */
+  padding: 20px;
+  font-weight: 200;
+  /* flex-direction: column; */
+}
+.parent .container .text_cont p {
+  font-size: small;
+  color: #777;
+}
+.parent .container .text_cont p::first-line {
+  color: #c6e049;
+  margin: 0px 0px 16px 0px;
+
+  font-size: small;
+}
+.parent .container .text_cont h3 {
+  color: #56b0b1;
+  margin: 0px 0px 16px 0px;
+  text-align: left;
+}
+.parent .container .deatails {
+  width: 80%;
+  height: 50%;
+  background-color: rgb(25, 83, 134);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deatails .price_con {
+  width: 50%;
+  height: 100%;
+  padding: 35px;
+  background-color: #67bcbd;
+}
+.dolar {
+  font-size: xx-large;
+  color: white;
+  font-weight: bolder;
+}
+.deatails .price_con h3 {
+  margin-top: 22px;
+  color: #fed23a;
+}
+.deatails .price_con p {
+  margin-top: 10px;
+  color: #f8f8f8;
+}
+
+.deatails .about {
+  width: 50%;
+  height: 100%;
+  color: #f8f8f8;
+  background-color: #67bcbd;
+  padding: 15px;
+}
+.about h2 {
+  margin-top: 31px;
+  color: #fed23a;
+}
+
+.about p {
+  margin-top: 18px;
+  line-height: 22px;
+  color: #fff;
+}
+.btn {
+  margin-top: 21px;
+  width: 100%;
+  height: 34px;
+  text-align: center;
+  color: #fff;
+  background-color: #c6e049;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+
+.about:hover {
+  background-color: #56b0b1;
+}
+.price_con:hover {
+  background-color: #56b0b1;
+  flex-direction: row;
+}
+
